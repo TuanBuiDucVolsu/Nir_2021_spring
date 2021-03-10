@@ -73,7 +73,7 @@ model_type = 2
 
 
 
-url = "https://raw.githubusercontent.com/TuanBuiDucVolsu/Nir_Spring2021/master/data/weather_temperature_yilan.csv"
+url = "https://raw.githubusercontent.com/TuanBuiDucVolsu/Nir_2021_spring/master/data/weather_temperature_yilan.csv"
 dataset = pd.read_csv(url)
 if filter_on == 1:
     dataset['Temperature'] = medfilt(dataset['Temperature'], 3)
