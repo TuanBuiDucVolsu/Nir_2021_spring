@@ -1,13 +1,4 @@
 #
-#
-# LSTM weather prediction demo
-# Written by: Dan R 2020
-#
-#
-
-
-
-#
 # Core Keras libraries
 #
 from keras.models import Sequential
